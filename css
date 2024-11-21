@@ -80,6 +80,41 @@ footer {
     padding: 20px;
     background: linear-gradient(135deg, #f12703, #0227f7);
 }
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff; 
+}
+
+th {
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 15px;
+    text-align: left;
+}
+
+td {
+    padding: 15px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; 
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff; 
+}
+
+img {
+    width: 100px; 
+    height: auto; 
+    margin: 0
+    
 .contact-section {
     max-width: 600px;
     margin: 50px auto;
