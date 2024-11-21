@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Form</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Form Example</title>
+    <link rel="stylesheet" href="stylecc.css">
 </head>
-<body id="contact-section">
-
-  
-  <div class="navbar">
-    <a href="Aboutme.html" target="_blank">Home</a>
-    <a href="Movielist.html" target="_blank">Movie List</a>
-    <a href="Contact.html" target="_blank">Contact Us</a>
-  </div>
-
-
-  <div class="contact-section">
-    <h2>Contact Me</h2>
-    <p>You can reach me through the following:</p>
-    <p><strong>Mobile No:</strong> <a href="tel:+639859665655">09859665955</a></p>
-    <p><strong>Email:</strong> <a href="mailto:cadiz.thedjustine@ici.edu.ph">Cadiz.ThedJustine@edu.ici.ph</a></p>
-  </div>
-
+<body>
+    <div class="form-container">
+        <h1>Contact Us</h1>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
